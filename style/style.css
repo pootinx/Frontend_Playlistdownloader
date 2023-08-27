@@ -1,0 +1,56 @@
+.navbar{ 
+      backdrop-filter:blur(1000px);
+      padding: 20px;
+      text-align: center;
+      height: 60px;
+      border-radius: 40px;
+      width: 1360px;
+      margin: 10px auto;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 91px;
+    margin-top: 44px
+}
+#home{
+    background: linear-gradient(45deg, #000157, #004261,#8a30ff);
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    backdrop-filter:blur(8px);
+}
+#Down{
+    background: linear-gradient(45deg, #0004f3,#8a30ff); 
+    box-shadow: 0 -5px 20px 0 rgb(0, 170, 192);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 40px;
+    transition: padding 0.5s ,font-size 0.5s;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#Down:hover{
+    padding: 10px 45px;
+    font-size: 21.5px;
+}
+.texthome{
+    margin-top: 120px;
+    color: white;
+}
+.nav-link{
+    color: white !important;
+    transition: text-shadow 0.3s;
+    margin: 20px;
+}
+.nav-link:hover{
+    text-shadow: 1px 1px 20px rgb(255, 255, 255);
+}
+@media screen and (max-width:1500px) {
+.navbar{
+    width: 100%;
+    padding: 0 !important;
+}
+    
+}
